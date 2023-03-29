@@ -45,3 +45,9 @@ enableGitInfo = true
   section = ["HTML"]
   taxonomy = ["HTML"]
   term = ["HTML", "ATOM"]
+
+[params]
+  subtitle = "Your self-improvement feature branch"
+  description = "This is my personal blog about tech."
+  keywords = []
+  images = []
