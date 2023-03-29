@@ -1,0 +1,14 @@
+---
+header:
+  - name: Github
+    icon: gblog_github
+    ref: "https://github.com/peterrauscher"
+    external: true
+
+footer:
+  - name: Newsletter
+    icon: gblog_email
+    ref: "/newsletter"
+  - name: Donate
+    icon: gblog_email
+    ref: "/donate"
