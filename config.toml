@@ -48,6 +48,28 @@ enableGitInfo = true
 
 [params]
   subtitle = "Your self-improvement feature branch"
-  description = "This is my personal blog about tech."
-  keywords = []
+  description = "Join the devBranch community and start making the most of your career in software development. Our site is packed with insights and advice on productivity, best practices, DevOps, and more, to help you stay ahead of the curve. Whether you're a greenie or a senior developer, there's something for everyone at devBranch."
+  keywords = ["programming tips", "productivity hacks", "DevOps strategies", "career development", "best practices", "optimizing code", "time management skills", "collaboration tools", "debugging techniques", "learning new programming languages"]
   images = []
+
+  # (Optional, default static/brand.svg) Set the path to a logo for the Geekblog
+  # relative to your 'static/' folder.
+#   logo = ""
+
+  # (Optional, default none) Add a link to your Legal Notice page to the site footer.
+  # It can be either a remote url or a local file path relative to your content directory.
+#   geekblogLegalNotice = "https://blog.example.com/legal"
+
+  # (Optional, default none) Add a link to your Privacy Policy page to the site footer.
+  # It can be either a remote url or a local file path relative to your content directory.
+#   geekblogPrivacyPolicy = "/privacy"
+
+
+  # (Optional, default none) Sites main author.
+  geekblogAuthor = "Peter Rauscher"
+
+  # (Optional, default none) Adds a "Content licensed under <license>" line to the footer.
+  # Could be used if you want to define a default license for your content.
+  [params.geekblogContentLicense]
+    name = "CC BY-SA 4.0"
+    link = "https://creativecommons.org/licenses/by-sa/4.0/"
