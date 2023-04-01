@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "content/post/**.md"
+      - "!content/post/_index.md"
 
 jobs:
   publish:
